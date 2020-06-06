@@ -10,6 +10,7 @@ public class TestDao {
 			//System.out.println(e);
 		for(Integer i : dao.getYearsCrimes())
 			System.out.println(i);
+		System.out.println(dao.getStartDistrictId(2015));
 	}
 
 }
